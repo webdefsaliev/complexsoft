@@ -1,0 +1,57 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+a:focus{
+	color: #2FC7F7;
+}
+.thanks{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.thanks-text{
+	/*height: 320px;*/
+	width: 600px;
+	padding: 0 25px;
+}
+.thanks-text img{
+	margin-bottom: 30px;
+}
+.thanks-text__title{
+	margin-bottom: 20px;
+	color: #2FC7F7;
+	font-size: 45px;
+	text-transform: uppercase;
+}
+.thanks-text__descr{
+	text-align: left;
+	font-weight: 700;
+	line-height: 25px;
+	margin-bottom: 15px;
+}
+button{
+	height: 45px;
+	padding: 0 26px;
+	background: transparent;
+	border: 3px solid #2FC7F7;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+button a{
+	color: #2FC7F7;
+	text-decoration: none;
+	display: block;
+}
+.thanks-text__important{
+	color: red;
+	display: block;
+}
