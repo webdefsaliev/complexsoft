@@ -18,6 +18,8 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap" rel="stylesheet">
 		<!-- icon -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<!-- wow -->
+		<link rel="stylesheet" href="css/animate.css">
 		<!-- Custom styles for this template -->
 		<link href="starter-template.css" rel="stylesheet">
 		<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -69,43 +71,43 @@
 					include('main.php');
 				?>
 			</header>
-			<section class="triggers">
+			<section class="triggers"id="triggers">
 				<div class="container">
 					<div class="triggers-blocks">
 						<div class="row">
-							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="triggers-block">
-									<div class="triggers-block__icon"><i class="fas fa-clock"></i></div>
+							<div class="col-lg-4 col-md-6 col-sm-6" >
+								<div class="triggers-block wow bounceInDown" data-wow-delay="1s">
+									<div class="triggers-block__icon"><img src="https://img.icons8.com/dusk/180/000000/time-span.png"></div>
 									<div class="triggers-block__info">Экономьте время на обработку данных</div>
 								</div>
 							</div>
 							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="triggers-block">
-									<div class="triggers-block__icon"><i class="fas fa-stream"></i></div>
-									<div class="triggers-block__info">Отслеживайте каждое движение товара,</div>
+								<div class="triggers-block wow bounceInDown" data-wow-delay="1.2s">
+									<div class="triggers-block__icon"><img src="https://img.icons8.com/dusk/150/000000/drag-list-down.png"></div>
+									<div class="triggers-block__info">Отслеживайте каждое движение товара</div>
 								</div>
 							</div>
 							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="triggers-block">
-									<div class="triggers-block__icon"><i class="fas fa-sort-amount-up"></i></div>
+								<div class="triggers-block wow bounceInDown" data-wow-delay="1.3s">
+									<div class="triggers-block__icon"><img src="https://img.icons8.com/cotton/130/000000/bill--v1.png"></div>
 									<div class="triggers-block__info">Исключайте недостачи и потери</div>
 								</div>
 							</div>
 							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="triggers-block">
-									<div class="triggers-block__icon"><i class="fas fa-funnel-dollar"></i></div>
+								<div class="triggers-block wow bounceInDown" data-wow-delay="1.3s">
+									<div class="triggers-block__icon"><img src="https://img.icons8.com/dusk/90/000000/sales-performance.png"></div>
 									<div class="triggers-block__info">Оптимизируйте продажи</div>
 								</div>
 							</div>
 							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="triggers-block">
-									<div class="triggers-block__icon"><i class="fas fa-chart-line"></i></div>
+								<div class="triggers-block wow bounceInDown" data-wow-delay="1.3s">
+									<div class="triggers-block__icon"><img src="https://img.icons8.com/dusk/130/000000/total-sales.png"></div>
 									<div class="triggers-block__info">Увеличивайте прибыль вдвое</div>
 								</div>
 							</div>
 							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="triggers-block">
-									<div class="triggers-block__icon"><i class="fab fa-shirtsinbulk"></i></div>
+								<div class="triggers-block wow bounceInDown" data-wow-delay="1.3s">
+									<div class="triggers-block__icon"><img src="https://img.icons8.com/dusk/150/000000/training.png"></div>
 									<div class="triggers-block__info">Бесплатное обучение и внедрение всего за 3 дня! </div>
 								</div>
 							</div>
@@ -117,9 +119,9 @@
 			<section class="info">
 				<div class="container">
 					<div class="block">
-						<div class="info-block__title section-title">Программа для склада</div>
-						<div class="info-block__descr">
-							Складской учет помогает отслеживать и управлять закупками, продажами и производством в кратчайшие сроки и с минимальными потерями. Делать это в 1С неоправданно дорого, в Excel - трудоемко и слишком ненадежно. <br> <br>
+						<div class="info-block__title section-title wow fadeIn" data-wow-delay="0.4s">Программа для склада</div>
+						<div class="info-block__descr wow fadeIn" data-wow-delay="0.8s">
+							Складской учет помогает отслеживать и управлять закупками, продажами и производством в кратчайшие сроки и с минимальными потерями. Делать это в 1С неоправданно дорого, в Excel - трудоемко и слишком ненадежно. <br>
 							<b>Money Manager  </b>- универсальный инструмент для малого бизнеса! 
 							<ul>
 								<li>Быстрый ввод данных по принципу двойной записи,</li>
@@ -127,7 +129,7 @@
 								<li>быстрое и точное распределение запасов по точкам продаж,</li>
 								<li>оперативная отчетность с возможностью детализации по каждому торговому объекту и виду продукции.</li>
 							</ul>
-							Владея полной информацией обо всех движениях товара, вы можете выявлять наиболее привлекательные для потребителей позиции, снижать недостачи, потери и порчу имущества, составлять оптимальные графики закупок и продаж, организовать бизнес-процессы с максимальной доходностью.  <br> <br>
+							Владея полной информацией обо всех движениях товара, вы можете выявлять наиболее привлекательные для потребителей позиции, снижать недостачи, потери и порчу имущества, составлять оптимальные графики закупок и продаж, организовать бизнес-процессы с максимальной доходностью.  <br>
 							Скачайте бесплатную демо-версию и повысьте прибыль вдвое всего за 30 дней! <br>
 							<b>Money Manager</b> - держите свой склад под контролем!
 						</div>

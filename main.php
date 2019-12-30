@@ -6,9 +6,9 @@
 						<!-- <div class="main-block__title">Программа разработанная специально для малого бизнеса. Финансовый,управленческий, и складской учет в одном месте. Показывает все движения денег и товаров.  Ваши данные под надёжной защитой! Установите порядок в учете!</div> -->
 						<div class="main-block__info">
 							<ul>
-								<li> <img src="https://img.icons8.com/color/90/000000/microsoft-excel-2019--v1.png">Функциональней Excel</li>
-								<li> <img src="https://img.icons8.com/cute-clipart/90/000000/low-price.png"> Дешевле 1С</li>
-								<li> <img src="https://img.icons8.com/plasticine/100/000000/calculator.png">Удобней бухгалтера!</li>
+								<li class="wow fadeInUp" data-wow-delay="0.2s"> <img src="https://img.icons8.com/color/140/000000/microsoft-excel-2019--v1.png">Функциональней Excel</li>
+								<li class="wow fadeInUp" data-wow-delay="0.4s"> <img src="https://img.icons8.com/cute-clipart/140/000000/low-price.png"> Дешевле 1С</li>
+								<li class="wow fadeInUp" data-wow-delay="0.6s"> <img src="https://img.icons8.com/plasticine/140/000000/calculator.png">Удобней бухгалтера!</li>
 							</ul>
 						</div>
 						<!-- <a href="#offer-form-footer" class="main-block__btn">
@@ -32,8 +32,9 @@
 							<button class="main-form-btn btn" onclick="getForm(1);">Скачать</button>
 						</form>
 					</div> -->
-					<div class="offer-form offer-form__footer" id="offer-form">
+					<div class="offer-form offer-form__footer wow fadeInUp" data-wow-delay="0.8s" id="offer-form">
 								<form  id="formgetcode2" action="OnSubmit" class="main-form">
+									<p>Скачайте программу <span>БЕСПЛАТНО</span> прямо сейчас</p>
 									<input id="name2" type="name" class="main-form-input main-form-input__none" placeholder="Введите ваше имя" value="Admin">
 									<input id="email2" type="e-mail" class="main-form-input main-form-input__none" placeholder="Введите ваш E-mail" value="salievabdumalik03@gmail.com">
 									<input id="phone2" type="number" class="main-form-input main-form-input-telephone" placeholder="Введите ваш номер">
@@ -44,11 +45,16 @@
 									</select>
 									<button class="main-form-btn" onclick="getForm(2);">Получить код</button>
 									<input id="code2" type="number" class="main-form-input" placeholder="Введите код подтверждения">
-									<span style="font-size: 13px; color: red; position: relative; top: -12px;">введите код, который мы отправили на Ваш номер</span>
+									<span style="font-size: 12px; color: red; position: relative; top: -12px; font-family: Roboto;">введите код, который мы отправили на Ваш номер</span>
 									<button class="main-form-btn btn" type="submit" onclick="getForm(3);">Скачать</button>
 								</form>
 							</div>
 			</div>
 		</div>
+	</div>
+	<div class="header-icon" id="menu-info">
+		<a href="#triggers" >
+			<i class="fas fa-angle-down" ></i>
+		</a>
 	</div>
 </div>

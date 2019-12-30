@@ -1,3 +1,4 @@
+<script src="js/wow.min.js"></script>
 <script>
     /*menu*/
     var link = $('.menu-link');
@@ -53,4 +54,6 @@
             prevArrow: '<div class="slider-arrow slider-arrow_product slider-arrow_left slider-arrow_product_left"></div>',
             nextArrow: '<div class="slider-arrow slider-arrow_product slider-arrow_right slider-arrow_product_right"></div>',
         });
+        // wow
+            new WOW().init();
 </script>

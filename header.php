@@ -1,4 +1,4 @@
-<header class="section-block">
+<header class="section-block header-index">
 	<div class="header-bg" id="header">
 		<div class="container">
 			<?php

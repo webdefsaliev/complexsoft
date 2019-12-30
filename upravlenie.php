@@ -18,6 +18,8 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap" rel="stylesheet">
 		<!-- icon -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<!-- wow -->
+		<link rel="stylesheet" href="css/animate.css">
 		<!-- Custom styles for this template -->
 		<link href="starter-template.css" rel="stylesheet">
 		<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -69,43 +71,43 @@
 					include('main.php');
 				?>
 			</header>
-			<section class="triggers">
+			<section class="triggers" id="triggers">
 				<div class="container">
 					<div class="triggers-blocks">
 						<div class="row">
 							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="triggers-block">
-									<div class="triggers-block__icon"><i class="fas fa-sync-alt"></i></div>
+								<div class="triggers-block wow bounceInDown" data-wow-delay="1s">
+									<div class="triggers-block__icon"><img src="https://img.icons8.com/dusk/120/000000/refresh.png"></div>
 									<div class="triggers-block__info">Быстрая обработка данных</div>
 								</div>
 							</div>
 							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="triggers-block">
-									<div class="triggers-block__icon"><i class="far fa-list-alt"></i></div>
+								<div class="triggers-block wow bounceInDown" data-wow-delay="1.2s">
+									<div class="triggers-block__icon"><img src="https://img.icons8.com/dusk/110/000000/checklist.png"></div>
 									<div class="triggers-block__info">Достоверная отчетность</div>
 								</div>
 							</div>
 							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="triggers-block">
-									<div class="triggers-block__icon"><i class="fas fa-clipboard-check"></i></div>
+								<div class="triggers-block wow bounceInDown" data-wow-delay="1.3s">
+									<div class="triggers-block__icon"><img src="https://img.icons8.com/cute-clipart/120/000000/inspection.png"></div>
 									<div class="triggers-block__info">Принятие эффективных решений</div>
 								</div>
 							</div>
 							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="triggers-block">
-									<div class="triggers-block__icon"><i class="fas fa-hand-holding-usd"></i></div>
+								<div class="triggers-block wow bounceInDown" data-wow-delay="1.3s">
+									<div class="triggers-block__icon"><img src="https://img.icons8.com/dusk/110/000000/economic-improvement.png"></div>
 									<div class="triggers-block__info">Повышение доходности в 2 раза</div>
 								</div>
 							</div>
 							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="triggers-block">
-									<div class="triggers-block__icon"><i class="fas fa-lock"></i></div>
+								<div class="triggers-block wow bounceInDown" data-wow-delay="1.3s">
+									<div class="triggers-block__icon"><img src="https://img.icons8.com/cotton/128/000000/lock--v1.png"></div>
 									<div class="triggers-block__info">Ваши данные под надёжной защитой!</div>
 								</div>
 							</div>
 							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="triggers-block">
-									<div class="triggers-block__icon"><i class="far fa-check-circle"></i></div>
+								<div class="triggers-block wow bounceInDown" data-wow-delay="1.3s">
+									<div class="triggers-block__icon"><img src="https://img.icons8.com/flat_round/140/000000/checkmark.png"></div>
 									<div class="triggers-block__info">Будьте уверены в своих решениях с Money Manager!</div>
 								</div>
 							</div>
@@ -116,8 +118,8 @@
 			<section class="info">
 				<div class="container">
 					<div class="block">
-						<div class="info-block__title section-title">Управленческий учет</div>
-						<div class="info-block__descr">
+						<div class="info-block__title section-title wow fadeIn" data-wow-delay="0.4s">Управленческий учет</div>
+						<div class="info-block__descr wow fadeIn" data-wow-delay="0.8s">
 						Без точных данных невозможно развитие бизнеса. Для роста требуется оперативный учет всех операций и детальный анализ деятельности компании. Скажите ”НЕТ” сложным программам 1С и ненадежным таблицам в Excel! <b>Money Manager</b> - программа, разработанная специально для малого бизнеса. Владейте информацией, управляйте прибылью!  <br>
 						<ul>
 							<li>Автоматизированный учет обеспечивает сокращение времени на обработку данных на 60%.</li>

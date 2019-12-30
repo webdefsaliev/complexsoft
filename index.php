@@ -18,6 +18,8 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap" rel="stylesheet">
 		<!-- icon -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<!-- wow -->
+		<link rel="stylesheet" href="css/animate.css">
 		<!-- Custom styles for this template -->
 		<link href="starter-template.css" rel="stylesheet">
 		<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -71,11 +73,28 @@
 				include('menu-mobile.php');
 			?>
 			<?php
+				include('header-item.php');
+			?>
+			<?php
 				include('header.php');
 			?>
 			<?php
 				include('triggers.php');
 			?>
+			<section class="info">
+				<div class="container">
+					<div class="block">
+						<div class="info-block__title section-title wow fadeIn" data-wow-delay="0.4s"> <span>Money Manager  </span>- разработан специально для малого бизнеса</div>
+						<div class="info-block__descr wow fadeIn" data-wow-delay="0.8s">
+						Прибыльный бизнес - результат точных данных, тщательного анализа и верных решений. Все это невозможно без качественного учета. Популярные программы имеют ряд недостатков и не подходят для малого бизнеса. <br> 
+						Excel — трудоемкий и ненадежный инструмент без необходимой отчетности и должного анализа. <br>
+						Программы 1С — сложные и дорогостоящие, требуют специального обслуживания и знамениты сбоями в работе. <br>
+						<b>Money Manager</b>- продукт, настроенный именно под Ваше дело! Помогает вести качественный учет, формировать достоверную отчетность и делать правильные выводы.<br>
+						<b>Money Manager</b> - финансовый, управленческий и складской учет в одной программе! Отслеживание денежных потоков, контроль за каждой единицей товара, точные данные для эффективного анализа - все, что необходимо для успешного существования и развития малого бизнеса! <br> 
+						</div>
+					</div>
+				</div>
+			</section>
 			<?php
 				include('forwho.php');
 			?>
