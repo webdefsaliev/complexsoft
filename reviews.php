@@ -2,12 +2,13 @@
 	<div class="container">
 		<div class="section-title wow fadeIn" data-wow-delay="0.4s"><span>Отзывы клиентов Money</span>Manager</div>
 		<div class="reviews-slider wow fadeInDown" data-wow-delay="0.4s">
-			<div class="reviews-slider-item">
+		<div class="reviews-slider-item">
 				<div class="reviews-slider-item__img"></div><!-- /.reviews-slider-img -->
 				<div class="reviews-slider-item__text">
-					У меня свое производство химических удобрений. В ведении дебета и кредита возникали постоянные недочеты. 2 года назад познакомился с Money Manager. Я начал видеть свои доходы, контролировать расходы, расчеты с поставщиками. Благодаря контролю увеличились доходы моего бизнеса.
-					<div class="reviews-slider-item__all">Акмаль </div><!-- /.reviews-slider-item -->
-				</div><!-- /.reviews-slider-text -->
+						Я – бизнесмен со стажем 15 лет. Имею собственный цех по изготовлению посуды.
+						Ведение и учет товара хотел всегда вести сам, чтоб иметь контроль над своими доходами и расходами. Попробовал внедрить программу Money Manager. Благодаря Салиджану, облегчил работу в разы.
+					<div class="reviews-slider-item__all">ХожиАкбар</div><!-- /.reviews-slider-item -->
+				</div><!-- /.reviews-slider-textпрпп -->
 			</div>
 			<div class="reviews-slider-item">
 				<div class="reviews-slider-item__img"></div><!-- /.reviews-slider-img -->
@@ -44,10 +45,9 @@
 			<div class="reviews-slider-item">
 				<div class="reviews-slider-item__img"></div><!-- /.reviews-slider-img -->
 				<div class="reviews-slider-item__text">
-						Я – бизнесмен со стажем 15 лет. Имею собственный цех по изготовлению посуды.
-						Ведение и учет товара хотел всегда вести сам, чтоб иметь контроль над своими доходами и расходами. Попробовал внедрить программу Money Manager. Благодаря Салиджану, облегчил работу в разы.
-					<div class="reviews-slider-item__all">ХожиАкбар</div><!-- /.reviews-slider-item -->
-				</div><!-- /.reviews-slider-textпрпп -->
+					У меня свое производство химических удобрений. В ведении дебета и кредита возникали постоянные недочеты. 2 года назад познакомился с Money Manager. Я начал видеть свои доходы, контролировать расходы, расчеты с поставщиками. Благодаря контролю увеличились доходы моего бизнеса.
+					<div class="reviews-slider-item__all">Акмаль </div><!-- /.reviews-slider-item -->
+				</div><!-- /.reviews-slider-text -->
 			</div>
 		</div>
 	</div>

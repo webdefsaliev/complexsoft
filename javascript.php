@@ -55,5 +55,5 @@
             nextArrow: '<div class="slider-arrow slider-arrow_product slider-arrow_right slider-arrow_product_right"></div>',
         });
         // wow
-            new WOW().init();
+            // new WOW().init();
 </script>

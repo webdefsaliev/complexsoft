@@ -210,7 +210,9 @@ body {
 .info .info-block__title{
   margin-bottom: 20px;
 }
-
+.info .section-title {
+  font-size: 58px;
+}
 /* .info .block p{
   margin: 0;
 } */
@@ -219,7 +221,14 @@ body {
   font-size: 25px;
   line-height: 1.8;
   text-align: left;
+  text-indent: 1.5em; /* Отступ первой строки */
+  text-align: justify; Выравнивание по ширине
 }
+
+.info .block .info-block__descr p{
+  margin: 0;
+}
+
 .info .passages{
   text-align: center;
 }
@@ -294,9 +303,9 @@ header {
   z-index: 1;
 }
 
-.header-index {
+/* .header-index {
   height: 877px;
-}
+} */
 
 .header-index .header-bg-text {
   text-align: left;
@@ -312,9 +321,12 @@ header {
 }
 
 .header-index .main {
-  margin-top: -25px;
+  margin-top: -96px;
 }
-
+.header-index .main .main-form {
+  position: relative;
+  top: -39px;
+}
 .header-bg {
   min-height: 251px;
   width: 100%;
@@ -476,8 +488,7 @@ header .main-form-input-telephone {
 }
 
 .main-form p{
-  font-size: 18px;
-  font-weight: 700; 
+  font-size: 18px; 
   margin: -5px 0 5px 0;
 
 }
@@ -574,6 +585,9 @@ header .main-form-input-telephone {
 /* .triggers-block__icon::nth-child(2n+1) .triggers-block__icon i {
   background: #000;
 } */
+.triggers-blocks-index{
+  font-size: 18px;
+}
 .menu-link {
   display: block;
   width: 45px;
@@ -712,7 +726,7 @@ header .main-form-input-telephone {
 .forwho-block__subtitle{
   margin-top: 5px;
   padding: 0 3px;
-  /* word-spacing: -2.5px; */
+  font-size: 18px;
 }
 
 /* forwho_info */
@@ -1052,7 +1066,7 @@ header .main-form-input-telephone {
   width: 220px;
   height: 220px;
   border-radius: 50%;
-  background: transparent url(../img/reviews/icon-1.png) center no-repeat;
+  background: transparent url(../img/reviews/4.png) center no-repeat;
   background-size: cover;
   text-align: center;
   vertical-align: middle;
@@ -1089,7 +1103,7 @@ header .main-form-input-telephone {
 }
 
 .reviews-slider-item:nth-of-type(2) .reviews-slider-item__img {
-  background: transparent url(../img/reviews/4.png) center no-repeat;
+  background: transparent url(../img/reviews/icon-1.png) center no-repeat;
   background-size: cover;
 }
 
@@ -1188,19 +1202,22 @@ header .main-form-input-telephone {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+  background:#d1d1d1 url(../img/header/header-bg2.jpg) center center;
+  background-size: 100% 288%; 
+  z-index: 1;
 }
 
 .footer::after {
     content: "";
     display: block;
     position: absolute;
-    z-index: -3;
+    z-index: -1;
     width: 100%;
     height: 100%;
     left: 0px;
     top: 0;
-    background: #fbaf5d; 
-    opacity: 0.8;
+    background: #fbaf5d;
+    opacity: 0.7;
 }
 .footer-logo, .footer-list {
   padding-top: 25px;
@@ -1301,9 +1318,12 @@ header .main-form-input-telephone {
     min-height: 678px;
     background-size: 131% 126%;
   }
-  .header-index {
-    height: 779px;
-  } 
+  .header-index .main .main-form {
+    top: -25px
+  }
+  .header-index .main {
+    margin-top: -89px;
+  }
   .header-index .header-bg-text b {
     font-size: 23px;
   }
@@ -1404,6 +1424,9 @@ header .main-form-input-telephone {
     font-size: 40px;
     text-align: center;
   }
+  .info .section-title {
+    font-size: 50px;
+  }
   .video{
     min-height: 480px;
     background-size: auto;
@@ -1490,11 +1513,11 @@ header .main-form-input-telephone {
     min-height: 786px;
     background-size: 240% 138%;
   }
-  .header-index {
-    height: 910px;
-  }
   .header-index .main {
-    margin-top: 5px;
+    margin-top: 0px;
+  }
+  .header-index .main .main-form{
+    top: 0px;
   }
   .header-index .header-icon {
     left: 5%;
@@ -1504,6 +1527,9 @@ header .main-form-input-telephone {
   }
   .info-block__title{
     font-size: 65px;
+  }
+  .info .section-title {
+    font-size: 37px;
   }
   .info .block .info-block__descr{
     font-size: 21px;
@@ -1551,6 +1577,9 @@ header .main-form-input-telephone {
   .header-bg-options a {
     font-size: 18px;
   }
+  .triggers-blocks-index{
+    font-size: 16px;
+  }
   .main {
     margin-top: 25px;
   }
@@ -1589,6 +1618,9 @@ header .main-form-input-telephone {
   .forwho-block{
     flex-basis: 45%;
     min-height: 290px;
+  }
+  .forwho-block__subtitle{
+    font-size: 16px;
   }
   .trailer-block {
     height: 210px;
@@ -1975,6 +2007,9 @@ header .main-form-input-telephone {
   }
   header .main-form{
     height: 300px;
+  }
+  .header-item-block{
+    font-size: 15px;
   }
   .main {
     margin-top: 50px;
