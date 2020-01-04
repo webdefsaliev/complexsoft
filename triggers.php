@@ -1,4 +1,4 @@
-<section class="triggers" id="triggers">
+<!-- <section class="triggers" id="triggers">
     <div class="container">
             <div class="triggers-blocks triggers-blocks-index">
                 <div class="row">
@@ -10,11 +10,11 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="triggers-block wow bounceInDown" data-wow-delay="0.3s">
-                            <div class="triggers-block__icon"><img src="https://img.icons8.com/dusk/145/000000/traffic-light.png"></div>
-                            <div class="triggers-block__info">Поможет наводить в бизнесе  порядок бизнесе</div>
+                            <div class="triggers-block__icon"><img src="https://img.icons8.com/dusk/110/000000/traffic-light.png"></div>
+                            <div class="triggers-block__info">Поможет наводить порядок бизнесе</div>
                         </div>
                     </div>
                 </div>
             </div> 
     </div>
-</section>
+</section> -->

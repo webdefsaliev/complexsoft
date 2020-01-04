@@ -6,8 +6,8 @@
 						<!-- <div class="main-block__title">Программа разработанная специально для малого бизнеса. Финансовый,управленческий, и складской учет в одном месте. Показывает все движения денег и товаров.  Ваши данные под надёжной защитой! Установите порядок в учете!</div> -->
 						<div class="main-block__info">
 							<ul>
-								<li class="wow fadeInUp" data-wow-delay="0.2s"> <img src="https://img.icons8.com/color/140/000000/microsoft-excel-2019--v1.png">Функциональней Excel</li>
 								<li class="wow fadeInUp" data-wow-delay="0.4s"> <img src="https://img.icons8.com/cute-clipart/140/000000/low-price.png"> Дешевле 1С</li>
+								<li class="wow fadeInUp" data-wow-delay="0.2s" style="margin-top: -25px;"> <img src="https://img.icons8.com/color/175/000000/microsoft-excel-2019--v1.png">Функциональней Excel</li>
 								<li class="wow fadeInUp" data-wow-delay="0.6s"> <img src="https://img.icons8.com/officel/140/000000/estimate.png">Удобней бухгалтера!</li>
 							</ul>
 						</div>

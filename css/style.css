@@ -221,8 +221,8 @@ body {
   font-size: 25px;
   line-height: 1.8;
   text-align: left;
-  text-indent: 1.5em; /* Отступ первой строки */
-  text-align: justify; Выравнивание по ширине
+  text-indent: 1.5em; 
+  /* text-align: justify; */
 }
 
 .info .block .info-block__descr p{
@@ -303,10 +303,6 @@ header {
   z-index: 1;
 }
 
-/* .header-index {
-  height: 877px;
-} */
-
 .header-index .header-bg-text {
   text-align: left;
 }
@@ -319,7 +315,9 @@ header {
   font-size: 30px; 
   line-height: 1.5;
 }
-
+.header-index .header-bg-text span {
+  display: block;
+}
 .header-index .main {
   margin-top: -96px;
 }
@@ -586,7 +584,15 @@ header .main-form-input-telephone {
   background: #000;
 } */
 .triggers-blocks-index{
+  background: none;
+  padding: 18px;
   font-size: 18px;
+}
+.triggers-blocks-index .triggers-block {
+  height: 153px;
+  border: none;
+  margin-left: -3px;
+  margin-right: 3px;
 }
 .menu-link {
   display: block;
@@ -694,7 +700,23 @@ header .main-form-input-telephone {
   background: #fff;
   color: #fac656;
 }
+.menu-mobil-href{
+  left: 30%;
+  position: absolute;
+  bottom: 200px;
+}
+.menu-mobil-href a{
+  display: block;
+  color: #fff;
+  margin-bottom: 25px;
+  position: relative;
+}
 
+.menu-mobil-href a:hover {
+  text-decoration: none;
+  background: #fff;
+  color: #fac656;
+}
 /* forwho */
 
 .forwho{
@@ -708,7 +730,7 @@ header .main-form-input-telephone {
   align-content: center;
 }
 .forwho-block{
-  flex-basis: 46%;
+  flex-basis: 47%;
   min-height: 275px;
   margin: 15px;
   padding: 5px;
@@ -1427,6 +1449,13 @@ header .main-form-input-telephone {
   .info .section-title {
     font-size: 50px;
   }
+  .forwho-block{
+    flex-basis: 46%;
+  }
+  .triggers-blocks-index .triggers-block {
+    margin-left: -9px;
+    margin-right: 9px;
+  }
   .video{
     min-height: 480px;
     background-size: auto;
@@ -1622,6 +1651,10 @@ header .main-form-input-telephone {
   .forwho-block__subtitle{
     font-size: 16px;
   }
+  .triggers-blocks-index .triggers-block {
+    margin-left: -2px;
+    margin-right: 2px;
+  }
   .trailer-block {
     height: 210px;
   }
@@ -1724,6 +1757,10 @@ header .main-form-input-telephone {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    background-size: cover;
+  }
+  .footer::after{
+    opacity: 0.9;
   }
   .footer-bg-text{
     margin-left: 0;
@@ -1810,6 +1847,10 @@ header .main-form-input-telephone {
   }
   .header-icon {
     left: 42%;
+  }
+  .triggers-blocks-index .triggers-block {
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .triggers-block{
     padding: 0 ;
@@ -1976,6 +2017,12 @@ header .main-form-input-telephone {
   .header-index .header-bg-text b {
     font-size: 19px;
   }
+  .header-index .header-bg-text span{
+    display: none;
+  }
+  .header-item .header-item-block .fas{
+    margin-right: 20px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -2010,6 +2057,13 @@ header .main-form-input-telephone {
   }
   .header-item-block{
     font-size: 15px;
+  }
+  .header-item .header-item-block .fas{
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .header-item-block .info-block-time, .info-block-mail{
+    display: none;
   }
   .main {
     margin-top: 50px;

@@ -78,9 +78,6 @@
 			<?php
 				include('header.php');
 			?>
-			<?php
-				include('triggers.php');
-			?>
 			<section class="info">
 				<div class="container">
 					<div class="block">
@@ -97,6 +94,9 @@
 			</section>
 			<?php
 				include('forwho.php');
+			?>
+			<?php
+				include('triggers.php');
 			?>
 			<?php
 				include('advantages.php');
