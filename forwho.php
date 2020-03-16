@@ -1,6 +1,6 @@
 <section class="forwho">
     <div class="container">
-        <div class="section-title wow fadeIn" data-wow-delay="0.4s">Для кого подходит <br><span>Money Manager:</span></div>
+        <div class="section-title wow fadeIn" data-wow-delay="0.4s">Для кого подходит <br><span>Money Manager :</span></div>
         <div class="forwho-blocks">
             <div class="forwho-block wow bounceInLeft" data-wow-delay="0.6s">
                 <div class="forwho-block__num"><img src="https://img.icons8.com/bubbles/150/000000/man-in-white-short.png"></div>
@@ -22,24 +22,21 @@
                 <div class="forwho-block__title">Крупная организация:</div>
                 <div class="forwho-block__subtitle">Позволяет видеть реальное положение дел, а не сухую бухгалтерскую отчетность. </div>
             </div> -->
-            <section class="triggers triggers-blocks-index" id="triggers">
-                <div class="triggers-blocks">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-12 ">
-                            <div class="triggers-block wow bounceInDown" data-wow-delay="0.2s" >
-                                <div class="triggers-block__icon"><img src="https://img.icons8.com/cotton/160/000000/finish-flag.png"></div>
-                                <div class="triggers-block__info">Поможет разобратся в главных цифрах своего бизнеса </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="triggers-block wow bounceInDown" data-wow-delay="0.3s">
-                                <div class="triggers-block__icon"><img src="https://img.icons8.com/dusk/110/000000/traffic-light.png"></div>
-                                <div class="triggers-block__info">Поможет наводить порядок бизнесе</div>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-            </section>
         </div>
+        <section class="triggers triggers-blocks-index" id="triggers">
+            <div class="triggers-blocks">
+                    <div class="triggers-block wow bounceInDown" data-wow-delay="0.2s" >
+                        <div class="triggers-block__icon"><img src="https://img.icons8.com/cotton/150/000000/finish-flag.png"></div>
+                        <div class="triggers-block__info">Поможет разобратся в главных цифрах своего бизнеса </div>
+                    </div>
+                    <div class="triggers-block wow bounceInDown" data-wow-delay="0.3s">
+                        <div class="triggers-block__icon"><img src="https://img.icons8.com/dusk/120/000000/traffic-light.png"></div>
+                        <div class="triggers-block__info">Поможет наводить порядок бизнесе</div>
+                    </div>
+            </div> 
+        </section>
+        <?php
+            include('header-icon.php');
+        ?>
     </div>
 </section>

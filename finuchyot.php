@@ -49,92 +49,39 @@
 	</head>
 
 	<body>
-		<div class="no-select">
+		<div class="no-select no-select__finuchyot_uzbkiril">
 			<?php
 				include('menu-mobile.php');
+			?>
+			<?php
+				include('menu-desktop.php');
 			?>
 			<?php
 				include('header-item.php');
 			?>
 			<header class="section-block">
 				<div class="header-bg" id="header">
-					<div class="container">
+					<div class="container-fluid">
 						<?php
 							include('header-top.php');
 						?>
-						<?php
-							include('header-text-finuchyot.php');
-						?>
+						<div class="header-wrap">
+							<?php
+								include('header-text-finuchyot.php');
+							?>
+							<?php
+								include('main.php');
+							?>
+						</div>
 					</div>
 				</div>	
-				<?php
-					include('main.php');
-				?>
 			</header>
-			<section class="triggers" id="triggers">
-				<div class="container">
-					<div class="triggers-blocks">
-						<div class="row">
-							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="triggers-block wow bounceInDown" data-wow-delay="1s">
-									<div class="triggers-block__icon"><div class="triggers-block__icon"><img src="https://img.icons8.com/cotton/200/000000/finish-flag.png"></div></div>
-									<div class="triggers-block__info">Отслеживание финансовых потоков </div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="triggers-block wow bounceInDown" data-wow-delay="1.1s">
-									<div class="triggers-block__icon"><img src="https://img.icons8.com/dusk/90/000000/traffic-light.png"></div>
-									<div class="triggers-block__info">Контроль расходов </div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="triggers-block wow bounceInDown" data-wow-delay="1.2s">
-									<div class="triggers-block__icon"><img src="https://img.icons8.com/dusk/140/000000/pie-chart.png"></div>
-									<div class="triggers-block__info">Достоверная отчетность</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="triggers-block wow bounceInDown" data-wow-delay="1.3s">
-									<div class="triggers-block__icon"><img src="https://img.icons8.com/plasticine/180/000000/combo-chart.png"></div>
-									<div class="triggers-block__info">Предотвращение кассовых разрывов</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="triggers-block wow bounceInDown" data-wow-delay="1.4s">
-									<div class="triggers-block__icon"><img src="https://img.icons8.com/dusk/180/000000/time-span.png"></div>
-									<div class="triggers-block__info">Экономия времени на обработку данных до 60%</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="triggers-block wow bounceInDown" data-wow-delay="1.5s">
-									<div class="triggers-block__icon"><img src="https://img.icons8.com/color/150/000000/shield.png"></div>
-									<div class="triggers-block__info">Ваши данные под надёжной защитой!</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="info">
-				<div class="container">
-					<div class="block">
-						<div class="info-block__title section-title wow fadeIn" data-wow-delay="0.4s">Финансовый учет</div>
-						<div class="info-block__descr wow fadeIn" data-wow-delay="0.8s">
-						<p>Порядок в финансах - 90 % успеха компании. Ручной учет давно устарел, ведение в Excel слишком трудоемко и ненадежно, 1С - сложно и дорого. </p>
-						<p><b>Money Manager</b> - программа, разработанная специально для малого бизнеса. Актуальная информация о финансах позволяет снижать экономические риски, выявлять и укреплять слабые стороны компании, оптимизировать производственные процессы с целью увеличения прибыли.</p> 
-						<b>Money Manager</b> - это: 
-		   				<ul>
-							   <li>быстрый ввод данных,</li>
-							   <li>прозрачная информация обо всех платежах, </li>
-							   <li>своевременное отслеживание кредиторской и дебиторской задолженности,</li>
-							   <li>точные данные для финансового анализа и принятия управленческих решений,</li>
-							   <li>предотвращение кассовых разрывов. </li>
-						</ul>
-						<p>Систематизация финансового учета - это не только снижение времени на обработку информации, но и возможность контроля за всеми процессами. <b>Money Manager</b> - универсальный помощник для малого бизнеса! </p>
-						</div>
-					</div>
-				</div>
-			</section>
+			<?php
+				include('triggers-finuchyot.php');
+			?>
+			<?php
+				include('info-finuchyot.php');
+			?>
 			<?php
 				include('forwho.php');
 			?>

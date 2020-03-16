@@ -49,88 +49,39 @@
 	</head>
 
 	<body>
-		<div class="no-select">
+		<div class="no-select no-select__upravlenie_uzbkiril">
 			<?php
 				include('menu-mobile.php');
+			?>
+			<?php
+				include('menu-desktop.php');
 			?>
 			<?php
 				include('header-item.php');
 			?>
 			<header class="section-block">
 				<div class="header-bg" id="header">
-					<div class="container">
+					<div class="container-fluid">
 						<?php
 							include('header-top.php');
 						?>
-						<?php
-							include('header-text-upravlenie.php');
-						?>
+						<div class="header-wrap">
+							<?php
+								include('header-text-upravlenie.php');
+							?>
+							<?php
+								include('main.php');
+							?>
+						</div>
 					</div>
 				</div>	
-				<?php
-					include('main.php');
-				?>
 			</header>
-			<section class="triggers" id="triggers">
-				<div class="container">
-					<div class="triggers-blocks">
-						<div class="row">
-							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="triggers-block wow bounceInDown" data-wow-delay="1s">
-									<div class="triggers-block__icon"><img src="https://img.icons8.com/dusk/120/000000/refresh.png"></div>
-									<div class="triggers-block__info">Быстрая обработка данных</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="triggers-block wow bounceInDown" data-wow-delay="1.2s">
-									<div class="triggers-block__icon"><img src="https://img.icons8.com/dusk/110/000000/checklist.png"></div>
-									<div class="triggers-block__info">Достоверная отчетность</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="triggers-block wow bounceInDown" data-wow-delay="1.3s">
-									<div class="triggers-block__icon"><img src="https://img.icons8.com/cute-clipart/120/000000/inspection.png"></div>
-									<div class="triggers-block__info">Принятие эффективных решений</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="triggers-block wow bounceInDown" data-wow-delay="1.3s">
-									<div class="triggers-block__icon"><img src="https://img.icons8.com/dusk/110/000000/economic-improvement.png"></div>
-									<div class="triggers-block__info">Повышение доходности в 2 раза</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="triggers-block wow bounceInDown" data-wow-delay="1.3s">
-									<div class="triggers-block__icon"><img src="https://img.icons8.com/cotton/128/000000/lock--v1.png"></div>
-									<div class="triggers-block__info">Ваши данные под надёжной защитой!</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="triggers-block wow bounceInDown" data-wow-delay="1.3s">
-									<div class="triggers-block__icon"><img src="https://img.icons8.com/flat_round/140/000000/checkmark.png"></div>
-									<div class="triggers-block__info">Будьте уверены в своих решениях с Money Manager!</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="info">
-				<div class="container">
-					<div class="block">
-						<div class="info-block__title section-title wow fadeIn" data-wow-delay="0.4s">Управленческий учет</div>
-						<div class="info-block__descr wow fadeIn" data-wow-delay="0.8s">
-						<p>Без точных данных невозможно развитие бизнеса. Для роста требуется оперативный учет всех операций и детальный анализ деятельности компании. Скажите ”НЕТ” сложным программам 1С и ненадежным таблицам в Excel! <b>Money Manager</b> - программа, разработанная специально для малого бизнеса. Владейте информацией, управляйте прибылью! </p>
-						<ul>
-							<li>Автоматизированный учет обеспечивает сокращение времени на обработку данных на 60%.</li>
-							<li>Грамотное планирование и составление бюджета помогают избежать кассовых разрывов.</li>
-							<li>Актуальная информация о состоянии компании в любой момент обеспечивает надежный контроль за всеми бизнес-процессами. </li>
-							<li>Анализ доходов и расходов способствует формированию стоимости товаров и услуг для достижения максимальной рентабельности. </li>
-						</ul>
-						</div>
-					</div>
-				</div>
-			</section>
+			<?php
+				include('triggers-upravlenie.php');
+			?>
+			<?php
+				include('info-upravlenie.php');
+			?>
 			<?php
 				include('forwho.php');
 			?>

@@ -68,30 +68,36 @@
 	</head>
 
 	<body>
-		<div class="no-select">
+		<div class="no-select no-select-index">
 			<?php
 				include('menu-mobile.php');
 			?>
 			<?php
-				include('header-item.php');
+				include('menu-desktop.php');
 			?>
 			<?php
-				include('header.php');
+				include('header-item.php');
 			?>
-			<section class="info">
-				<div class="container">
-					<div class="block">
-						<div class="info-block__title section-title wow fadeIn" data-wow-delay="0.4s"> <span>Money Manager  </span>- разработан специально для малого бизнеса</div>
-						<div class="info-block__descr wow fadeIn" data-wow-delay="0.8s">
-						<p>Прибыльный бизнес - результат точных данных, тщательного анализа и верных решений. Все это невозможно без качественного учета. Популярные программы имеют ряд недостатков и не подходят для малого бизнеса. </p> 
-						<p>Excel — трудоемкий и ненадежный инструмент без необходимой отчетности и должного анализа. </p>
-						<p> Программы 1С — сложные и дорогостоящие, требуют специального обслуживания и знамениты сбоями в работе. </p>
-						<p> <b>Money Manager</b>- продукт, настроенный именно под Ваше дело! Помогает вести качественный учет, формировать достоверную отчетность и делать правильные выводы. </p>
-						<p><b>Money Manager</b> - финансовый, управленческий и складской учет в одной программе! Отслеживание денежных потоков, контроль за каждой единицей товара, точные данные для эффективного анализа - все, что необходимо для успешного существования и развития малого бизнеса! </p> 
+			<header class="section-block">
+				<div class="header-bg" id="header">
+					<div class="container-fluid">
+						<?php
+							include('header-top.php');
+						?>
+						<div class="header-wrap">
+							<?php
+								include('header-text.php');
+							?>
+							<?php
+								include('main.php');
+							?>
 						</div>
 					</div>
-				</div>
-			</section>
+				</div>	
+			</header>
+			<?php
+				include('info-index.php');
+			?>
 			<?php
 				include('forwho.php');
 			?>

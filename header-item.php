@@ -1,5 +1,5 @@
 <div class="header-item">
-	<div class="container">
+	<div class="container-fluid">
 		<div class="header-item-block">
 			<span class="info-block-time"><i class="fas fa-clock"></i>
 			<span>с 09:00 до 18:00</span></span>

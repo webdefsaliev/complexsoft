@@ -1,5 +1,5 @@
 <section class="howwork">
-    <div class="container">
+    <div class="container">  
     <div class="section-title">Как мы <span>работаем</span> </div>
         <div class="howwork-blocks">
             <div class="howwork-block howwork-arrow wow bounce" data-wow-delay="0.3s">
@@ -30,4 +30,7 @@
             <span>*на 30дней</span>
         </div>
     </div>
+    <?php
+        include('header-icon.php');
+    ?>
 </section>

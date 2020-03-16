@@ -49,92 +49,39 @@
 	</head>
 
 	<body>
-		<div class="no-select">
+		<div class="no-select no-select__sklad_uzbkiril">
 			<?php
 				include('menu-mobile.php');
+			?>
+			<?php
+				include('menu-desktop.php');
 			?>
 			<?php
 				include('header-item.php');
 			?>
 			<header class="section-block">
 				<div class="header-bg" id="header">
-					<div class="container">
+					<div class="container-fluid">
 						<?php
 							include('header-top.php');
 						?>
-						<?php
-							include('header-text-sklad.php');
-						?>
+						<div class="header-wrap">
+							<?php
+								include('header-text-sklad.php');
+							?>
+							<?php
+								include('main.php');
+							?>
+						</div>
 					</div>
 				</div>	
-				<?php
-					include('main.php');
-				?>
 			</header>
-			<section class="triggers"id="triggers">
-				<div class="container">
-					<div class="triggers-blocks">
-						<div class="row">
-							<div class="col-lg-4 col-md-6 col-sm-6" >
-								<div class="triggers-block wow bounceInDown" data-wow-delay="1s">
-									<div class="triggers-block__icon"><img src="https://img.icons8.com/dusk/180/000000/time-span.png"></div>
-									<div class="triggers-block__info">Экономьте время на обработку данных</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="triggers-block wow bounceInDown" data-wow-delay="1.2s">
-									<div class="triggers-block__icon"><img src="https://img.icons8.com/dusk/150/000000/drag-list-down.png"></div>
-									<div class="triggers-block__info">Отслеживайте каждое движение товара</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="triggers-block wow bounceInDown" data-wow-delay="1.3s">
-									<div class="triggers-block__icon"><img src="https://img.icons8.com/cotton/130/000000/bill--v1.png"></div>
-									<div class="triggers-block__info">Исключайте недостачи и потери</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="triggers-block wow bounceInDown" data-wow-delay="1.3s">
-									<div class="triggers-block__icon"><img src="https://img.icons8.com/dusk/90/000000/sales-performance.png"></div>
-									<div class="triggers-block__info">Оптимизируйте продажи</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="triggers-block wow bounceInDown" data-wow-delay="1.3s">
-									<div class="triggers-block__icon"><img src="https://img.icons8.com/dusk/130/000000/total-sales.png"></div>
-									<div class="triggers-block__info">Увеличивайте прибыль вдвое</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="triggers-block wow bounceInDown" data-wow-delay="1.3s">
-									<div class="triggers-block__icon"><img src="https://img.icons8.com/dusk/150/000000/training.png"></div>
-									<div class="triggers-block__info">Бесплатное обучение и внедрение всего за 3 дня! </div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-				</div>
-			</section>
-			<section class="info">
-				<div class="container">
-					<div class="block">
-						<div class="info-block__title section-title wow fadeIn" data-wow-delay="0.4s">Программа для склада</div>
-						<div class="info-block__descr wow fadeIn" data-wow-delay="0.8s">
-							<p>Складской учет помогает отслеживать и управлять закупками, продажами и производством в кратчайшие сроки и с минимальными потерями. Делать это в 1С неоправданно дорого, в Excel - трудоемко и слишком ненадежно. </p> 
-							<b>Money Manager  </b>- универсальный инструмент для малого бизнеса! 
-							<ul>
-								<li>Быстрый ввод данных по принципу двойной записи,</li>
-								<li>отслеживание закупок по каждому поставщику и отдельному виду товара,</li>
-								<li>быстрое и точное распределение запасов по точкам продаж,</li>
-								<li>оперативная отчетность с возможностью детализации по каждому торговому объекту и виду продукции.</li>
-							</ul>
-							<p>	Владея полной информацией обо всех движениях товара, вы можете выявлять наиболее привлекательные для потребителей позиции, снижать недостачи, потери и порчу имущества, составлять оптимальные графики закупок и продаж, организовать бизнес-процессы с максимальной доходностью. </p>
-							<b>Money Manager</b> - держите свой склад под контролем!
-						</div>
-					</div>
-				</div>
-			</section>
+			<?php
+				include('triggers-sklad.php');
+			?>
+			<?php
+				include('info-sklad.php');
+			?>
 			<?php
 				include('forwho.php');
 			?>

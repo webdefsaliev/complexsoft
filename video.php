@@ -9,7 +9,7 @@
             	<a href="https://mover.uz/watch/173jgr1m/" class="trailer-block__btn" target="_blank"></a>
             </div>
             <div class="trailer-block wow zoomIn" data-wow-delay="0.7s">
-            	<a href="https://www.youtube.com/watch?v=TH89efdPG9U&feature=youtu.be" class="trailer-block__btn" target="_blank"></a>
+            	<a href="https://www.youtube.com/watch?v=4Yv48sm_uAk&feature=youtu.be" class="trailer-block__btn" target="_blank"></a>
         	</div>
         </div>
 	</div>

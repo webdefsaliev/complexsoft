@@ -1,11 +1,8 @@
 <section class="advantages section-block" id="advantages">
 	<div class="container">
-		<div class="section-title">Money<span>Manager</span></div>
-		<div class="section-descr">Зарабатывай 
-			<span>деньги! </span>Экономь
-			<span>время! </span> <br> А
-			<span>рутину </span>оставь программе!
-		</div>
+		<?php
+			include('advantages-title.php');
+		?>
 		<div class="row">
 			<div class="col-12 col-md-6 col-lg-6">
 				<div class="advantages-block wow fadeInDown" data-wow-delay="0.1s">
@@ -32,6 +29,11 @@
 				</div>
 			</div>
 		</div>
-		<div class="section-descr offer-info align-items-center wow fadeInUp" data-wow-delay="0.5s"><p>Money<span>Manager </span>работает! <br><span>Вы</span> зарабатыаете</p></div>
+		<?php
+			include('header-icon.php');
+		?>
+		<?php
+			include('advantages-banner.php');
+		?>
 	</div>
 </section>
